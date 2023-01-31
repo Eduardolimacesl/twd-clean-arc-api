@@ -4,7 +4,7 @@ describe('Register user on mailing list use case',()=> {
   test('should add user with complete data to mailing list', async () => {
     const users: UserData[] = []
     console.log(users)
-    // const repo: UserRepository = new InMemoryUserRepository(users)
+    // const repo: UserRepository = new InMemoryUserRepository(users) 
     // const usercase: RegisterUserOnMailingList = new RegisterOnMailingList(repo)
     // const name = 'Carlos Eduardo'
     // const email = 'any@email.com'
